@@ -13,7 +13,7 @@ In the context of patch management, think of the graph as representing the softw
 - In terms of practical implementation: 
 When managing patches, focus on the critical nodes (vertices) that impact the overall security and stability of the system. Identify the software components, servers, or devices that are most susceptible to vulnerabilities. Prioritize patching these critical vertices to minimize the risk of exploitation. Keep in mind that patching every single vertex (component) may not be feasible due to resource constraints or compatibility issues. Therefore, finding the optimal vertex cover (minimal set of patches) becomes crucial for effective patch management. 
 
-Borrowed and Adapted from: [GeeksforGeeks](https://www.geeksforgeeks.org/introduction-and-approximate-solution-for-vertex-cover-problem/), [JuliaGraphs](https://juliagraphs.org/Graphs.jl/dev/algorithms/vertexcover/), [Brilliant](https://brilliant.org/wiki/vertex-cover/)
+Borrowed and Adapted from: [GeeksforGeeks](https://www.geeksforgeeks.org/introduction-and-approximate-solution-for-vertex-cover-problem/)<sup>[6]</sup>, [JuliaGraphs](https://juliagraphs.org/Graphs.jl/dev/algorithms/vertexcover/), [Brilliant](https://brilliant.org/wiki/vertex-cover/)
 
 
 ## What are Vulnerability Graphs? 
