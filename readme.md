@@ -14,7 +14,10 @@ For checkpoint 1:
 - The progress report (in one-liner texts) is also added as progress.txt
 - We have implemented vertex cover (in the `VertexCover` folder) and bipartite graph representation (in the `BipartiteGraph` folder) under the `LearningMaterials` folder.
 
-From our Vertex Cover Implementation:
+From our `Vertex Cover` Implementation:
 Given the Graph             |  Vertex Cover
 :-------------------------:|:-------------------------:
-![](LearningMaterials\vertexCover\assets\graph1.png)  |  ![](LearningMaterials/vertexCover/assets/vertexCover_for_graph1.png)
+![](LearningMaterials/assets/vertexCover/graph1.png)  |  ![](LearningMaterials/assets/vertexCover/vertexCover_for_graph1.png)
+
+From our `Bipartite Graph` Representation:
+![](LearningMaterials/assets/bipartite/bipartite1.png)
