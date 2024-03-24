@@ -20,4 +20,4 @@ Given the Graph             |  Vertex Cover
 ![](LearningMaterials/assets/vertexCover/graph1.png)  |  ![](LearningMaterials/assets/vertexCover/vertexCover_for_graph1.png)
 
 From our `Bipartite Graph` Representation:
-![](LearningMaterials/assets/bipartite/bipartite1.png)
+![Bipartite Graph Representation](LearningMaterials/assets/bipartite/bipartite1.png)
