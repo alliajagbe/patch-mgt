@@ -40,7 +40,7 @@ def construct_dual_graph(G):
 
     return dual_graph
 
-# Example usage
+
 G = nx.Graph()
 # Add vulnerability vertices
 G.add_nodes_from(['v1', 'v2', 'v3'])
