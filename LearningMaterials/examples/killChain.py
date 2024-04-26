@@ -20,3 +20,4 @@ nx.draw(
     font_color="whitesmoke",
 )
 plt.show()
+
