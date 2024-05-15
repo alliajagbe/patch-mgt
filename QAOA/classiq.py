@@ -21,32 +21,4 @@ def mvc(graph: nx.Graph) -> pyo.ConcreteModel:
     return model
 
 mvc_model = mvc(DG)
-
-import classiq
-
-# classiq.authenticate(overwrite=True)
-from classiq import construct_combinatorial_optimization_model
-from classiq.applications.combinatorial_optimization import OptimizerConfig, QAOAConfig
-
-qaoa_config = QAOAConfig(num_layers=1)
-
-optimizer_config = OptimizerConfig(max_iteration=60, alpha_cvar=0.9)
-
-qmod = construct_combinatorial_optimization_model(
-    pyo_model=mvc_model,
-    qaoa_config=qaoa_config,
-    optimizer_config=optimizer_config,
-)
-
-from classiq import set_execution_preferences
-from classiq.execution import ClassiqBackendPreferences, ExecutionPreferences
-
-backend_preferences = ExecutionPreferences(
-    backend_preferences=ClassiqBackendPreferences(backend_name="aer_simulator")
-)
-
-qmod = set_execution_preferences(qmod, backend_preferences)
-
-from classiq import write_qmod
-
-write_qmod(qmod, "patch_min_vertex_cover")
+mvc_model.pprint()

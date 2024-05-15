@@ -1,5 +1,6 @@
 import networkx as nx
 from collections import defaultdict
+import matplotlib.pyplot as plt
 
 def construct_dual_graph(G):
     """
@@ -49,3 +50,6 @@ G.add_edges_from([('v1', 'a1'), ('v1', 'a2'), ('v2', 'a1'), ('v2', 'a3'), ('v3',
 dual_graph = construct_dual_graph(G)
 print("Dual Graph Nodes:", dual_graph.nodes())
 print("Dual Graph Edges:", dual_graph.edges(data=True))
+# draw the graph
+nx.draw(dual_graph, with_labels=True, pos=nx.circular_layout(dual_graph), font_color='whitesmoke')
+plt.show()
