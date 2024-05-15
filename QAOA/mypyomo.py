@@ -19,6 +19,3 @@ def mvc(graph: nx.Graph) -> pyo.ConcreteModel:
     model.cost = pyo.Objective(rule=obj_expression, sense=pyo.minimize)
 
     return model
-
-mvc_model = mvc(DG)
-mvc_model.pprint()
