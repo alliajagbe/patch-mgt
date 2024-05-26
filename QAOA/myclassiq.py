@@ -5,6 +5,7 @@ from classiq.execution import ClassiqBackendPreferences, ExecutionPreferences
 
 qaoa_config = QAOAConfig(num_layers=1)
 optimizer_config = OptimizerConfig(max_iteration=60, alpha_cvar=0.9)
+print("QAOA and Optimizer Configurations are set.")
 
 qmod = construct_combinatorial_optimization_model(
     pyo_model=mvc,
