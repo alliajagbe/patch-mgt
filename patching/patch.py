@@ -91,7 +91,7 @@ qmod = prepare_classiq(should_write=True)
 classiq.authenticate()
 #------------------------------------------------------
 qprog = synthesize(qmod)
-show(qprog)
+# show(qprog)
 #------------------------------------------------------
 res = execute(qprog).result()
 print(res)
