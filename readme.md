@@ -30,29 +30,29 @@ Cybersecurity is critical in today's interconnected world, with networks constan
 
 ### Methodology
 #### Network Systems as Graph
-Network systems are represented as graphs, where nodes represent devices or software components, and edges represent the connections between them. Vulnerabilities and dependencies are modeled to understand attack paths and potential points of failure【6:1†source】【6:2†source】.
+Network systems are represented as graphs, where nodes represent devices or software components, and edges represent the connections between them. Vulnerabilities and dependencies are modeled to understand attack paths and potential points of failure【1】【2】.
 
 #### Minimum Vertex Cover Problem
 The MVC problem involves finding the smallest set of vertices that cover all edges in a graph. This is analogous to identifying the critical vulnerabilities that need to be patched to secure the network【6:2†source】.
 
 #### Understanding QAOA
-QAOA is a quantum algorithm designed for combinatorial optimization problems. It uses a quantum circuit to approximate solutions to the MVC problem, aiming to find an optimal or near-optimal set of critical vulnerabilities to patch【6:2†source】.
+QAOA is a quantum algorithm designed for combinatorial optimization problems. It uses a quantum circuit to approximate solutions to the MVC problem, aiming to find an optimal or near-optimal set of critical vulnerabilities to patch【2】.
 
 ### Implementation
 #### Graph Construction and MVC Model
-The project uses the Classiq framework to construct a bipartite graph representing vulnerability data and a dual graph to capture interconnections between vulnerabilities. The MVC model is then applied to this graph【6:3†source】.
+The project uses the Classiq framework to construct a bipartite graph representing vulnerability data and a dual graph to capture interconnections between vulnerabilities. The MVC model is then applied to this graph【3】.
 
 #### Quantum Algorithm Integration
-The QAOA is integrated with the MVC model, translating the problem into a quantum circuit. The circuit is designed to solve the MVC problem by iteratively optimizing the selection of critical vulnerabilities【6:3†source】.
+The QAOA is integrated with the MVC model, translating the problem into a quantum circuit. The circuit is designed to solve the MVC problem by iteratively optimizing the selection of critical vulnerabilities【3】.
 
 #### Execution and Results
-The quantum algorithm is executed, and the results are analyzed to determine the effectiveness of the patch prioritization strategy. Visualization tools are used to represent the identified critical vulnerabilities and their impact on the network's security【6:3†source】.
+The quantum algorithm is executed, and the results are analyzed to determine the effectiveness of the patch prioritization strategy. Visualization tools are used to represent the identified critical vulnerabilities and their impact on the network's security【3】.
 
 ### Results
-The results demonstrate that the quantum-inspired approach to patch management can effectively identify critical vulnerabilities, providing a more interconnected and holistic view of the network's security posture. This method shows promise in enhancing traditional patch management strategies【6:5†source】【6:6†source】.
+The results demonstrate that the quantum-inspired approach to patch management can effectively identify critical vulnerabilities, providing a more interconnected and holistic view of the network's security posture. This method shows promise in enhancing traditional patch management strategies【5】.
 
 ### Future Directions and Conclusion
-Future work could extend this methodology to larger network systems and explore its application in IoT-enabled networks. While actual quantum computers are not yet commercially feasible, the project's approach highlights the transformative potential of quantum computing in addressing real-world optimization problems in cybersecurity【6:6†source】.
+Future work could extend this methodology to larger network systems and explore its application in IoT-enabled networks. While actual quantum computers are not yet commercially feasible, the project's approach highlights the transformative potential of quantum computing in addressing real-world optimization problems in cybersecurity.
 
 ### References
 1. Classiq Documentation: [The Vertex Cover Problem with Application in Cybersecurity](https://docs.classiq.io/latest/explore/applications/cybersecurity/patching_management/patching_management/)
@@ -60,4 +60,3 @@ Future work could extend this methodology to larger network systems and explore 
 3. OWASP Foundation: [Vulnerability Scanning Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
 4. NVD - Vulnerability Metrics: [NVD](https://nvd.nist.gov/vuln-metrics/cvss)
 5. Quantum Approximate Optimization Algorithm: [arXiv](https://doi.org/10.48550/arxiv.1411.4028)
-6. Project GitHub Repository: [Patch Management](https://github.com/alliajagbe/patch-mgt)
