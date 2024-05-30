@@ -7,6 +7,8 @@ Team:
 ### Overview
 This project explores the application of quantum computing to enhance patch management strategies in cybersecurity. Traditional methods for prioritizing patches often focus on the severity of individual vulnerabilities, overlooking their interconnected nature and roles in complex attack chains. By modeling the problem as a Minimum Vertex Cover (MVC) problem and using the Quantum Approximate Optimization Algorithm (QAOA), we aim to identify the most critical vulnerabilities to patch. This approach, implemented using the Classiq quantum computing framework, seeks to disrupt potential attack paths more effectively than traditional methods.
 
+Further, the repository contains files to all codes and methods we have executed, as well as elaborate explanations on the mathemaical sub-topics the project utilises. 
+
 ### Table of Contents
 1. [Abstract](#abstract)
 2. [Introduction](#introduction)
