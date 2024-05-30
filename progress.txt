@@ -1,7 +1,0 @@
-To do list:
-- Understand Patch Management and its Application in Cybersecurity
-- Understand Vertex Cover and Vulnerability Graphs
-- Understand the Corresponding Role/Application of Quantum Computing in the Area
-- Research Previous Work Done
-- Innovate and Experiment on Development Areas
-- Document Findings
